@@ -13,6 +13,7 @@ public class Main extends Application {
         LandenQuizView view = new LandenQuizView();
         Presenter presenter = new Presenter(model,view);
         Scene scene = new Scene(view);
+        primaryStage.setTitle("Landen Quiz");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
